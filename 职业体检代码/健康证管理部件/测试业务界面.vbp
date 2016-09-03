@@ -1,0 +1,37 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\system32\STDOLE2.TLB#OLE Automation
+Reference=*\G{E0A08B7C-1149-11D5-91BE-0050BA06B70C}#1.4#0#C:\Program Files\卫生防疫管理信息系统\公用组件\数据访问.dll#数据访问
+Reference=*\G{E0A08B68-1149-11D5-91BE-0050BA06B70C}#3.0#0#C:\Program Files\卫生防疫管理信息系统\公用组件\系统函数.dll#系统函数
+Reference=*\G{067D7115-1888-11D5-97AD-0050BA070570}#2.f#0#C:\Program Files\卫生防疫管理信息系统\公用组件\通用对象.dll#通用对象
+Form=Form1.frm
+Startup="Form1"
+HelpFile=""
+ExeName32="测试界面.exe"
+Command32=""
+Name="测试界面"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="dysoft"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1

@@ -1,0 +1,9 @@
+[SCC]
+SCC=This is a source code control file
+[体检文书管理.vbp]
+SCC_Project_Name ="$/perfect/体检管理/体检文书管理", ZOAAAAAA
+SCC_Aux_Path =C:\Program Files\Microsoft Visual Studio\Common\VSS,
+
+[工程1.vbp]
+SCC_Project_Name = "$/perfect/体检管理/体检文书管理", ZOAAAAAA
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\Common\VSS"

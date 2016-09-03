@@ -1,0 +1,13 @@
+modMain = 0, 0, 0, 0, C
+clsCommon = 0, 0, 0, 0, C
+frmDataServerConfig = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+clsBatchManege = 0, 0, 0, 0, C
+frmConclusion = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmConclunInput_Write = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmEyeDraw = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmResultInput_Assay = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmProcess = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmResultInput_Routine = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmfresult = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmdrawline = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmshenghua = 0, 0, 0, 0, C, 0, 0, 0, 0, C

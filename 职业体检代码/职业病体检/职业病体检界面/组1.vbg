@@ -1,0 +1,8 @@
+VBGROUP 5.0
+Project=体检界面部件.vbp
+StartupProject=测试体检界面.vbp
+Project=..\职业病体检对象\体检对象部件.vbp
+Project=..\职业病史录入\职业病史录入界面.vbp
+Project=..\职业病体检结果录入\职业病体检结果录入.vbp
+Project=..\职业病体检文书管理\职业病文书管理.vbp
+Project=..\职业病体检业务设置界面\职业病业务设置.vbp

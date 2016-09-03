@@ -1,0 +1,51 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#E:\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{420B2830-E718-11CF-893D-00A0C9054228}#1.0#0#E:\WINDOWS\system32\scrrun.dll#Microsoft Scripting Runtime
+Reference=*\G{E0A08B7C-1149-11D5-91BE-0050BA06B70C}#1.4#0#..\..\..\..\2003-04\系统平台\编译后部件\数据访问.dll#数据访问
+Reference=*\G{8099FCC2-0A81-11D2-BAA4-04F205C10000}#1.0#0#E:\WINDOWS\system32\Vsflex6.ocx#:-) VideoSoft VSFlex 6.0 Controls (OLEDB)
+Reference=*\G{00000206-0000-0010-8000-00AA006D2EA4}#2.6#0#E:\Program Files\Common Files\system\ado\msado26.tlb#Microsoft ActiveX Data Objects 2.6 Library
+Object={8099FCC2-0A81-11D2-BAA4-04F205C10000}#1.0#0; Vsflex6.ocx
+Reference=*\G{067D7115-1888-11D5-97AD-0050BA070570}#2.e#0#..\..\..\..\2003-04\系统平台\编译后部件\通用对象.dll#通用对象
+Reference=*\G{E0A08B68-1149-11D5-91BE-0050BA06B70C}#3.1#0#..\..\..\..\2003-04\系统平台\编译后部件\系统函数.dll#系统函数
+Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; Mscomctl.ocx
+Object={F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0; Comdlg32.ocx
+Object={86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCT2.OCX
+Object={6B7E6392-850A-101B-AFC0-4210102A8DA7}#1.3#0; COMCTL32.OCX
+Module=MobComm; MobComm.bas
+Class=Cls数据服务; Cls数据服务.cls
+Form=frm导照片.frm
+Startup="Sub Main"
+HelpFile=""
+Title="导照片工具"
+ExeName32="导照片工具.exe"
+Command32=""
+Name="导照片工具"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="dysoft"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[RVB]
+RVB_UniqueId=3CF331770324

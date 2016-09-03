@@ -1,0 +1,15 @@
+clsTestItemSet = 66, 66, 485, 415, 
+ClsTestItem = 22, 22, 451, 343, 
+clsManageMedicalExam = -1, 115, 526, 436, 
+ClsMedicalExamSheet = 22, 22, 389, 338, 
+ClsMedicalExaminer = 44, 44, 473, 365, 
+ClsMedicalExamConclusion = 66, 66, 454, 387, C
+ClsFactTestItem = 110, 110, 524, 426, 
+ClsConclusionFilter = 88, 88, 476, 409, C
+clsMedicalExamTemplate = 0, 0, 414, 316, 
+ClsMedicalExamTemplateSet = 22, 22, 471, 334, C
+clsMedicalExam = 88, 88, 439, 409, 
+modMain = 110, 110, 527, 431, 
+clsLocalWorkBook = 66, 66, 417, 387, 
+clsPersonExamed = 75, 121, 491, 408, 
+clsMedicalExamSet = 132, 132, 520, 448, C

@@ -1,0 +1,535 @@
+[Root]
+Most Recent Package=体检提交
+
+
+[Package|体检提交程序|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\jhj\提交程序\编译后的部件\2001-4-11\安装程序
+
+[Package|体检提交程序|Configure DAO ISAMs]
+Applicable=No
+
+[Package|体检提交程序|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|体检提交程序|Files Found]
+
+[Package|体检提交程序|Files Released]
+
+[Package|体检提交程序|Missing Dependency Information]
+D:\防疫26项目组工作目录\总体设计\编译程序\录入控件.ocx=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUT.OCX=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUTBOX.OCX=
+D:\防疫26项目组工作目录\总体设计\界面通用对象\界面通用对象.dll=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=
+D:\防疫26项目组工作目录\总体设计\编译程序\通用对象.dll=
+D:\防疫26项目组工作目录\总体设计\编译程序\系统函数.dll=
+E:\WINNT\system32\Vsflex6d.ocx=
+E:\WINNT\system32\Vsflex6.ocx=
+D:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=
+D:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\dyCatchPhoto.ocx=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DyBigCheck.ocx=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\Capwnd.ocx=
+D:\防疫26项目组工作目录\总体设计\引用控件\SSA3D30.OCX=
+D:\防疫26项目组工作目录\总体设计\引用控件\SSSPLT30.OCX=
+D:\防疫26项目组工作目录\总体设计\引用控件\MSFLXGRD.OCX=
+D:\防疫26项目组工作目录\总体设计\引用控件\COMDLG32.OCX=
+E:\WINNT\system32\crpe32.dll=
+E:\WINNT\system32\crypt32.dll=
+E:\WINNT\system32\implode.dll=
+E:\WINNT\system32\pg32.dll=
+E:\WINNT\system32\p2bdao.dll=
+E:\WINNT\system32\p2ctdao.dll=
+E:\WINNT\system32\p2irdao.dll=
+E:\WINNT\system32\p2sodbc.dll=
+E:\WINNT\system32\p2bbnd.dll=
+E:\WINNT\system32\u2ddisk.dll=
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=
+E:\WINNT\system32\RDO20CHS.DLL=
+
+[Package|体检提交程序|Out-of-Date Dependency Information]
+
+[Package|体检提交程序|Files Added]
+d:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=
+d:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\dycatchphoto.ocx=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\dybigcheck.ocx=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\capwnd.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\ssa3d30.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\sssplt30.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\threed32.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\msflxgrd.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\comdlg32.ocx=
+e:\winnt\system32\crpe32.dll=
+e:\winnt\system32\crypt32.dll=
+e:\winnt\system32\implode.dll=
+e:\winnt\system32\pg32.dll=
+e:\winnt\system32\p2bdao.dll=
+e:\winnt\system32\p2ctdao.dll=
+e:\winnt\system32\p2irdao.dll=
+e:\winnt\system32\p2sodbc.dll=
+e:\winnt\system32\p2bbnd.dll=
+e:\winnt\system32\u2ddisk.dll=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\msbcode9.ocx=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\msvcrt20.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\co2c40en.dll=
+E:\WINNT\system32\RDO20CHS.DLL=
+E:\WINNT\system32\MSRDO20.DLL=
+
+[Package|体检提交程序|Files Removed]
+d:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\体检业务设置界面.dll=
+e:\winnt\system32\rdo20chs.dll=
+
+[Package|体检提交程序|Files In Project]
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检业务设置界面.dll=No
+E:\WINNT\system32\msvbvm60.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\VB6CHS.DLL=Yes
+E:\WINNT\system32\Vsflex6.ocx=Yes
+E:\WINNT\system32\Vsflex6d.ocx=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\系统函数.dll=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\通用对象.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=No
+E:\WINNT\system32\MSMASK32.OCX=Yes
+E:\WINNT\system32\MSMSKCHS.DLL=Yes
+E:\WINNT\system32\MSCOMCTL.OCX=Yes
+E:\WINNT\system32\MSCMCCHS.DLL=Yes
+E:\WINNT\system32\MSCOMCT2.OCX=Yes
+E:\WINNT\system32\MSCC2CHS.DLL=Yes
+E:\WINNT\system32\COMCT332.OCX=Yes
+E:\WINNT\system32\CMCT3CHS.DLL=Yes
+E:\WINNT\system32\TABCTL32.OCX=Yes
+E:\WINNT\system32\TABCTCHS.DLL=Yes
+E:\WINNT\system32\RICHTX32.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=Yes
+E:\WINNT\system32\RCHTXCHS.DLL=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUTBOX.OCX=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUT.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\录入控件.ocx=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\dyCatchPhoto.ocx=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DyBigCheck.ocx=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\Capwnd.ocx=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\界面通用对象.dll=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\SSA3D30.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\SSSPLT30.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\Threed32.ocx=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\MSFLXGRD.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\COMDLG32.OCX=Yes
+E:\WINNT\system32\crpe32.dll=Yes
+E:\WINNT\system32\crypt32.dll=Yes
+E:\WINNT\system32\implode.dll=Yes
+E:\WINNT\system32\pg32.dll=Yes
+E:\WINNT\system32\p2bdao.dll=Yes
+E:\WINNT\system32\p2ctdao.dll=Yes
+E:\WINNT\system32\p2irdao.dll=Yes
+E:\WINNT\system32\p2sodbc.dll=Yes
+E:\WINNT\system32\p2bbnd.dll=Yes
+E:\WINNT\system32\u2ddisk.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\MSBCODE9.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+E:\WINNT\system32\RDO20CHS.DLL=No
+E:\WINNT\system32\MSRDO20.DLL=Yes
+E:\WINNT\system32\RDOCURS.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|体检提交程序|Configure Registry Files]
+Applicable=No
+
+[Package|体检提交程序|Configure Remote Servers]
+Applicable=No
+
+[Package|体检提交程序|Install Locations]
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检业务设置界面.dll=$(AppPath)
+E:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\VB6CHS.DLL=$(WinSysPath)
+E:\WINNT\system32\Vsflex6.ocx=$(WinSysPath)
+E:\WINNT\system32\Vsflex6d.ocx=$(WinSysPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\系统函数.dll=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\通用对象.dll=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\界面通用对象\界面通用对象.dll=$(AppPath)
+E:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+E:\WINNT\system32\MSMSKCHS.DLL=$(WinSysPath)
+E:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCMCCHS.DLL=$(WinSysPath)
+E:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCC2CHS.DLL=$(WinSysPath)
+E:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+E:\WINNT\system32\CMCT3CHS.DLL=$(WinSysPath)
+E:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+E:\WINNT\system32\TABCTCHS.DLL=$(WinSysPath)
+E:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\RCHTXCHS.DLL=$(WinSysPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUTBOX.OCX=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUT.OCX=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\录入控件.ocx=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\dyCatchPhoto.ocx=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DyBigCheck.ocx=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\Capwnd.ocx=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\界面通用对象.dll=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\引用控件\SSA3D30.OCX=$(WinSysPath)
+D:\防疫26项目组工作目录\总体设计\引用控件\SSSPLT30.OCX=$(WinSysPath)
+D:\防疫26项目组工作目录\总体设计\引用控件\Threed32.ocx=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\防疫26项目组工作目录\总体设计\引用控件\MSFLXGRD.OCX=$(WinSysPath)
+D:\防疫26项目组工作目录\总体设计\引用控件\COMDLG32.OCX=$(WinSysPath)
+E:\WINNT\system32\crpe32.dll=$(WinSysPath)
+E:\WINNT\system32\crypt32.dll=$(WinSysPath)
+E:\WINNT\system32\implode.dll=$(WinSysPath)
+E:\WINNT\system32\pg32.dll=$(WinSysPath)
+E:\WINNT\system32\p2bdao.dll=$(WinSysPath)
+E:\WINNT\system32\p2ctdao.dll=$(WinSysPath)
+E:\WINNT\system32\p2irdao.dll=$(WinSysPath)
+E:\WINNT\system32\p2sodbc.dll=$(WinSysPath)
+E:\WINNT\system32\p2bbnd.dll=$(WinSysPath)
+E:\WINNT\system32\u2ddisk.dll=$(WinSysPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\MSBCODE9.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+E:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+E:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+
+[Package|体检提交程序|Configure Shared Files]
+Applicable=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检业务设置界面.dll=No
+D:\防疫26项目组工作目录\总体设计\编译程序\系统函数.dll=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\通用对象.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=No
+D:\防疫26项目组工作目录\总体设计\界面通用对象\界面通用对象.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUTBOX.OCX=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUT.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\录入控件.ocx=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\dyCatchPhoto.ocx=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DyBigCheck.ocx=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\Capwnd.ocx=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\界面通用对象.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|体检提交程序|Distribution]
+Type=single
+Size=
+Title=体检提交程序
+
+[Package|体检提交程序|Package]
+PackageFolder=c:\jhj\提交程序\编译后的部件\2001-4-11\安装程序
+ProjectFolder=D:\防疫26私人工作目录\体检管理\源程序\体检业务设置界面
+ServerSideCab=
+File1=c:\jhj\提交程序\编译后的部件\2001-4-11\安装程序\setup.exe
+File2=c:\jhj\提交程序\编译后的部件\2001-4-11\安装程序\Setup.Lst
+File3=c:\jhj\提交程序\编译后的部件\2001-4-11\安装程序\体检业务设置界面.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|体检提交|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\jhj\提交程序\编译后的部件\2001-4-19\安装程序
+
+[Package|体检提交|Configure DAO ISAMs]
+Applicable=No
+
+[Package|体检提交|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|体检提交|Files Found]
+
+[Package|体检提交|Files Released]
+
+[Package|体检提交|Missing Dependency Information]
+D:\防疫26项目组工作目录\总体设计\编译程序\录入控件.ocx=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUT.OCX=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUTBOX.OCX=
+D:\防疫26项目组工作目录\总体设计\界面通用对象\界面通用对象.dll=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=
+D:\防疫26项目组工作目录\总体设计\编译程序\通用对象.dll=
+D:\防疫26项目组工作目录\总体设计\编译程序\系统函数.dll=
+E:\WINNT\system32\Vsflex6d.ocx=
+E:\WINNT\system32\Vsflex6.ocx=
+D:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=
+D:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\dyCatchPhoto.ocx=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DyBigCheck.ocx=
+D:\防疫26项目组工作目录\体检管理\编译后的部件\Capwnd.ocx=
+D:\防疫26项目组工作目录\总体设计\引用控件\SSA3D30.OCX=
+D:\防疫26项目组工作目录\总体设计\引用控件\SSSPLT30.OCX=
+D:\防疫26项目组工作目录\总体设计\引用控件\MSFLXGRD.OCX=
+D:\防疫26项目组工作目录\总体设计\引用控件\COMDLG32.OCX=
+E:\WINNT\system32\crpe32.dll=
+E:\WINNT\system32\crypt32.dll=
+E:\WINNT\system32\implode.dll=
+E:\WINNT\system32\pg32.dll=
+E:\WINNT\system32\p2bdao.dll=
+E:\WINNT\system32\p2ctdao.dll=
+E:\WINNT\system32\p2irdao.dll=
+E:\WINNT\system32\p2sodbc.dll=
+E:\WINNT\system32\p2bbnd.dll=
+E:\WINNT\system32\u2ddisk.dll=
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=
+E:\WINNT\system32\RDO20CHS.DLL=
+
+[Package|体检提交|Out-of-Date Dependency Information]
+
+[Package|体检提交|Files Added]
+d:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=
+d:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\dycatchphoto.ocx=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\dybigcheck.ocx=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\capwnd.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\ssa3d30.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\sssplt30.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\threed32.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\msflxgrd.ocx=
+d:\防疫26项目组工作目录\总体设计\引用控件\comdlg32.ocx=
+e:\winnt\system32\crpe32.dll=
+e:\winnt\system32\crypt32.dll=
+e:\winnt\system32\implode.dll=
+e:\winnt\system32\pg32.dll=
+e:\winnt\system32\p2bdao.dll=
+e:\winnt\system32\p2ctdao.dll=
+e:\winnt\system32\p2irdao.dll=
+e:\winnt\system32\p2sodbc.dll=
+e:\winnt\system32\p2bbnd.dll=
+e:\winnt\system32\u2ddisk.dll=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\msbcode9.ocx=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\msvcrt20.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\co2c40en.dll=
+e:\winnt\system32\rdo20chs.dll=
+e:\winnt\system32\msrdo20.dll=
+E:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=
+
+[Package|体检提交|Files Removed]
+d:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=
+d:\防疫26项目组工作目录\体检管理\编译后的部件\体检业务设置界面.dll=
+e:\winnt\system32\rdo20chs.dll=
+
+[Package|体检提交|Files In Project]
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检业务设置界面.dll=No
+E:\WINNT\system32\msvbvm60.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINNT\system32\VB6CHS.DLL=Yes
+E:\WINNT\system32\Vsflex6.ocx=Yes
+E:\WINNT\system32\Vsflex6d.ocx=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\系统函数.dll=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\通用对象.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=No
+E:\WINNT\system32\MSMASK32.OCX=Yes
+E:\WINNT\system32\MSMSKCHS.DLL=Yes
+E:\WINNT\system32\MSCOMCTL.OCX=Yes
+E:\WINNT\system32\MSCMCCHS.DLL=Yes
+E:\WINNT\system32\MSCOMCT2.OCX=Yes
+E:\WINNT\system32\MSCC2CHS.DLL=Yes
+E:\WINNT\system32\COMCT332.OCX=Yes
+E:\WINNT\system32\CMCT3CHS.DLL=Yes
+E:\WINNT\system32\TABCTL32.OCX=Yes
+E:\WINNT\system32\TABCTCHS.DLL=Yes
+E:\WINNT\system32\RICHTX32.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=Yes
+E:\WINNT\system32\RCHTXCHS.DLL=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUTBOX.OCX=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUT.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\录入控件.ocx=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINNT\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\dyCatchPhoto.ocx=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DyBigCheck.ocx=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\Capwnd.ocx=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\界面通用对象.dll=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\SSA3D30.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\SSSPLT30.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\Threed32.ocx=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\MSFLXGRD.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\引用控件\COMDLG32.OCX=Yes
+E:\WINNT\system32\crpe32.dll=Yes
+E:\WINNT\system32\crypt32.dll=Yes
+E:\WINNT\system32\implode.dll=Yes
+E:\WINNT\system32\pg32.dll=Yes
+E:\WINNT\system32\p2bdao.dll=Yes
+E:\WINNT\system32\p2ctdao.dll=Yes
+E:\WINNT\system32\p2irdao.dll=Yes
+E:\WINNT\system32\p2sodbc.dll=Yes
+E:\WINNT\system32\p2bbnd.dll=Yes
+E:\WINNT\system32\u2ddisk.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\MSBCODE9.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+E:\WINNT\system32\RDO20CHS.DLL=No
+E:\WINNT\system32\MSRDO20.DLL=Yes
+E:\WINNT\system32\RDOCURS.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+E:\WINNT\system32\msjet40.dll=Yes
+E:\WINNT\system32\msjter40.dll=Yes
+E:\WINNT\system32\msjint40.dll=Yes
+E:\WINNT\system32\vbajet32.dll=Yes
+E:\WINNT\system32\expsrv.dll=Yes
+E:\WINNT\system32\mswstr10.dll=Yes
+E:\WINNT\system32\mswdat10.dll=Yes
+E:\WINNT\system32\msrd2x40.dll=Yes
+E:\WINNT\system32\msrd3x40.dll=Yes
+E:\WINNT\system32\msrepl40.dll=Yes
+E:\WINNT\system32\msjtes40.dll=Yes
+E:\WINNT\system32\VB5DB.DLL=Yes
+
+[Package|体检提交|Configure Registry Files]
+Applicable=No
+
+[Package|体检提交|Configure Remote Servers]
+Applicable=No
+
+[Package|体检提交|Install Locations]
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检业务设置界面.dll=$(AppPath)
+E:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\VB6CHS.DLL=$(WinSysPath)
+E:\WINNT\system32\Vsflex6.ocx=$(WinSysPath)
+E:\WINNT\system32\Vsflex6d.ocx=$(WinSysPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\系统函数.dll=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\通用对象.dll=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\界面通用对象\界面通用对象.dll=$(AppPath)
+E:\WINNT\system32\MSMASK32.OCX=$(WinSysPath)
+E:\WINNT\system32\MSMSKCHS.DLL=$(WinSysPath)
+E:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCMCCHS.DLL=$(WinSysPath)
+E:\WINNT\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINNT\system32\MSCC2CHS.DLL=$(WinSysPath)
+E:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+E:\WINNT\system32\CMCT3CHS.DLL=$(WinSysPath)
+E:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+E:\WINNT\system32\TABCTCHS.DLL=$(WinSysPath)
+E:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\GAPI32.DLL=$(WinSysPathSysFile)
+E:\WINNT\system32\RCHTXCHS.DLL=$(WinSysPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUTBOX.OCX=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUT.OCX=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\录入控件.ocx=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\dyCatchPhoto.ocx=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DyBigCheck.ocx=$(AppPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\Capwnd.ocx=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\编译程序\界面通用对象.dll=$(AppPath)
+D:\防疫26项目组工作目录\总体设计\引用控件\SSA3D30.OCX=$(WinSysPath)
+D:\防疫26项目组工作目录\总体设计\引用控件\SSSPLT30.OCX=$(WinSysPath)
+D:\防疫26项目组工作目录\总体设计\引用控件\Threed32.ocx=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MFC40.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\防疫26项目组工作目录\总体设计\引用控件\MSFLXGRD.OCX=$(WinSysPath)
+D:\防疫26项目组工作目录\总体设计\引用控件\COMDLG32.OCX=$(WinSysPath)
+E:\WINNT\system32\crpe32.dll=$(WinSysPath)
+E:\WINNT\system32\crypt32.dll=$(WinSysPath)
+E:\WINNT\system32\implode.dll=$(WinSysPath)
+E:\WINNT\system32\pg32.dll=$(WinSysPath)
+E:\WINNT\system32\p2bdao.dll=$(WinSysPath)
+E:\WINNT\system32\p2ctdao.dll=$(WinSysPath)
+E:\WINNT\system32\p2irdao.dll=$(WinSysPath)
+E:\WINNT\system32\p2sodbc.dll=$(WinSysPath)
+E:\WINNT\system32\p2bbnd.dll=$(WinSysPath)
+E:\WINNT\system32\u2ddisk.dll=$(WinSysPath)
+D:\防疫26项目组工作目录\体检管理\编译后的部件\MSBCODE9.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+E:\WINNT\system32\MSRDO20.DLL=$(WinSysPath)
+E:\WINNT\system32\RDOCURS.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+E:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+E:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+
+[Package|体检提交|Configure Shared Files]
+Applicable=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检业务设置界面.dll=No
+D:\防疫26项目组工作目录\总体设计\编译程序\系统函数.dll=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\通用对象.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\体检公用信息部件.dll=No
+D:\防疫26项目组工作目录\总体设计\界面通用对象\界面通用对象.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUTBOX.OCX=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DYCOMMINPUT.OCX=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\录入控件.ocx=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\字典管理.dll=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\系统资源.dll=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\dyCatchPhoto.ocx=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\DyBigCheck.ocx=Yes
+D:\防疫26项目组工作目录\体检管理\编译后的部件\Capwnd.ocx=Yes
+D:\防疫26项目组工作目录\总体设计\编译程序\界面通用对象.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|体检提交|Distribution]
+Type=single
+Size=
+Title=体检提交
+
+[Package|体检提交|Package]
+PackageFolder=c:\jhj\提交程序\编译后的部件\2001-4-19\安装程序
+ProjectFolder=D:\防疫26私人工作目录\体检管理\源程序\体检业务设置界面
+ServerSideCab=
+File1=c:\jhj\提交程序\编译后的部件\2001-4-19\安装程序\setup.exe
+File2=c:\jhj\提交程序\编译后的部件\2001-4-19\安装程序\Setup.Lst
+File3=c:\jhj\提交程序\编译后的部件\2001-4-19\安装程序\体检业务设置界面.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

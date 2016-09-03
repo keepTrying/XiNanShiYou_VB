@@ -1,0 +1,3 @@
+VBGROUP 5.0
+Project=..\职业病体检界面\体检界面部件.vbp
+StartupProject=..\职业病体检界面\测试体检界面.vbp

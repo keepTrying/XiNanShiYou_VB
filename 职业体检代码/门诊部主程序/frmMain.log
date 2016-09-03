@@ -1,0 +1,5 @@
+行 191: 控件 cstatusBar 的类 MSComctlLib.StatusBar 不是一个已加载的控件类。
+行 198: 属性名 _ExtentX 在 cstatusBar 中是无效的。
+行 199: 属性名 _ExtentY 在 cstatusBar 中是无效的。
+行 200: 属性名 _Version 在 cstatusBar 中是无效的。
+行 221: 属性名 Panels 在 cstatusBar 中是无效的。

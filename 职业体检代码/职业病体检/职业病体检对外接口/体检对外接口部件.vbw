@@ -1,0 +1,7 @@
+clsMdbFile = -7, 40, 876, 852, Z
+modMain = 0, 0, 417, 348, 
+clsTransSystem = 22, 22, 364, 370, 
+frmOutputData = 132, 132, 549, 480, , 66, 66, 483, 414, C
+frmInputDataFromExcel = 66, 66, 475, 414, , 22, 22, 882, 667, C
+frmInputDataFromMdb = 22, 22, 428, 370, , 44, 44, 487, 392, C
+ClsManageTransmission = 44, 44, 430, 392, 

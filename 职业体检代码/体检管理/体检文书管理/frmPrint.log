@@ -1,0 +1,5 @@
+行 2: 不能创建引用: '{00025600-0000-0000-C000-000000000046}#4.6#0'。
+行 18: 控件 cRepPrint 的类 Crystal.CrystalReport 不是一个已加载的控件类。
+行 21: 属性名 _ExtentX 在 cRepPrint 中是无效的。
+行 22: 属性名 _ExtentY 在 cRepPrint 中是无效的。
+行 23: 属性名 _Version 在 cRepPrint 中是无效的。

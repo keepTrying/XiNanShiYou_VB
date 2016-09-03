@@ -1,0 +1,4 @@
+行 103: 控件 cgrdInput 的类 录入控件.ctlInputGrid 不是一个已加载的控件类。
+行 127: 控件 cifFilter 的类 录入控件.ctlInputFrame 不是一个已加载的控件类。
+行 332: 控件 cidgMain 的类 录入控件.ctlInputDictGrid 不是一个已加载的控件类。
+行 354: 控件 cgrdMain 的类 VSFlex6Ctl.vsFlexGrid 不是一个已加载的控件类。

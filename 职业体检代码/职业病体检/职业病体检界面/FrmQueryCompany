@@ -1,0 +1,473 @@
+VERSION 5.00
+Object = "{BEEECC20-4D5F-4F8B-BFDC-5D9B6FBDE09D}#1.0#0"; "vsFlex8.ocx"
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "mscomctl.ocx"
+Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCT2.OCX"
+Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "Comdlg32.ocx"
+Object = "{6B7E6392-850A-101B-AFC0-4210102A8DA7}#1.3#0"; "COMCTL32.OCX"
+Begin VB.Form FrmQueryCompany 
+   Caption         =   "Form1"
+   ClientHeight    =   9465
+   ClientLeft      =   60
+   ClientTop       =   450
+   ClientWidth     =   12855
+   LinkTopic       =   "Form1"
+   ScaleHeight     =   9465
+   ScaleWidth      =   12855
+   StartUpPosition =   3  '窗口缺省
+   Begin ComctlLib.Toolbar ctlb工具栏 
+      Height          =   390
+      Left            =   0
+      TabIndex        =   0
+      Top             =   0
+      Width           =   11655
+      _ExtentX        =   20558
+      _ExtentY        =   688
+      ButtonWidth     =   609
+      ButtonHeight    =   582
+      Appearance      =   1
+      _Version        =   327682
+      Begin MSComctlLib.ImageList ImageList1 
+         Left            =   3840
+         Top             =   0
+         _ExtentX        =   1005
+         _ExtentY        =   1005
+         BackColor       =   -2147483643
+         MaskColor       =   12632256
+         _Version        =   393216
+      End
+      Begin MSComDlg.CommonDialog CommonDialog1 
+         Left            =   7920
+         Top             =   120
+         _ExtentX        =   847
+         _ExtentY        =   847
+         _Version        =   393216
+      End
+   End
+   Begin VB.Frame Frame1 
+      Height          =   1935
+      Left            =   360
+      TabIndex        =   2
+      Top             =   720
+      Width           =   11295
+      Begin VB.Frame Frame3 
+         Caption         =   "其他信息"
+         Height          =   1095
+         Left            =   8280
+         TabIndex        =   14
+         Top             =   240
+         Width           =   2895
+         Begin VB.TextBox ctxtDoctor 
+            Height          =   375
+            Left            =   1200
+            TabIndex        =   15
+            Top             =   360
+            Width           =   1095
+         End
+         Begin VB.Label Label4 
+            Caption         =   "医师："
+            Height          =   255
+            Left            =   240
+            TabIndex        =   16
+            Top             =   480
+            Width           =   735
+         End
+      End
+      Begin VB.CommandButton ccmdQuery 
+         Caption         =   "查询"
+         Height          =   375
+         Left            =   9360
+         TabIndex        =   13
+         Top             =   1440
+         Width           =   1695
+      End
+      Begin VB.Frame Frame2 
+         Caption         =   "查询条件"
+         Height          =   1575
+         Left            =   120
+         TabIndex        =   3
+         Top             =   240
+         Width           =   7815
+         Begin VB.CommandButton CmdFCompany 
+            Caption         =   "单位定位"
+            Height          =   375
+            Left            =   4200
+            TabIndex        =   9
+            Top             =   360
+            Width           =   1815
+         End
+         Begin VB.TextBox ctxtCompanyName 
+            Height          =   375
+            Left            =   1440
+            TabIndex        =   8
+            Top             =   360
+            Width           =   1815
+         End
+         Begin VB.CheckBox flag日期 
+            Caption         =   "Check1"
+            Height          =   375
+            Left            =   6360
+            TabIndex        =   5
+            Top             =   960
+            Width           =   255
+         End
+         Begin VB.CheckBox flag名称 
+            Caption         =   "Check1"
+            Height          =   255
+            Left            =   6360
+            TabIndex        =   4
+            Top             =   480
+            Width           =   255
+         End
+         Begin MSComCtl2.DTPicker DTP截止时间 
+            Height          =   375
+            Left            =   4200
+            TabIndex        =   6
+            Top             =   960
+            Width           =   1815
+            _ExtentX        =   3201
+            _ExtentY        =   661
+            _Version        =   393216
+            Format          =   21364737
+            CurrentDate     =   41027
+         End
+         Begin MSComCtl2.DTPicker DTP开始时间 
+            Height          =   375
+            Left            =   1440
+            TabIndex        =   7
+            Top             =   960
+            Width           =   1815
+            _ExtentX        =   3201
+            _ExtentY        =   661
+            _Version        =   393216
+            Format          =   21364737
+            CurrentDate     =   41027
+         End
+         Begin VB.Label Label1 
+            Caption         =   "单位名称"
+            Height          =   255
+            Left            =   240
+            TabIndex        =   12
+            Top             =   480
+            Width           =   855
+         End
+         Begin VB.Label Label2 
+            Caption         =   "体检时间"
+            Height          =   255
+            Left            =   240
+            TabIndex        =   11
+            Top             =   1080
+            Width           =   855
+         End
+         Begin VB.Label Label3 
+            Caption         =   "至"
+            Height          =   255
+            Left            =   3600
+            TabIndex        =   10
+            Top             =   1080
+            Width           =   255
+         End
+      End
+   End
+   Begin VB.Timer Timer1 
+      Left            =   5640
+      Top             =   480
+   End
+   Begin VSFlex8Ctl.VSFlexGrid cgrdList 
+      Height          =   6255
+      Left            =   360
+      TabIndex        =   1
+      Top             =   2880
+      Width           =   11295
+      _cx             =   2088783315
+      _cy             =   2088774425
+      Appearance      =   0
+      BorderStyle     =   1
+      Enabled         =   -1  'True
+      BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+         Name            =   "宋体"
+         Size            =   9
+         Charset         =   134
+         Weight          =   400
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      MousePointer    =   0
+      BackColor       =   -2147483643
+      ForeColor       =   -2147483640
+      BackColorFixed  =   -2147483633
+      ForeColorFixed  =   -2147483630
+      BackColorSel    =   -2147483635
+      ForeColorSel    =   -2147483634
+      BackColorBkg    =   -2147483636
+      BackColorAlternate=   -2147483643
+      GridColor       =   -2147483633
+      GridColorFixed  =   -2147483632
+      TreeColor       =   -2147483632
+      FloodColor      =   192
+      SheetBorder     =   -2147483642
+      FocusRect       =   1
+      HighLight       =   1
+      AllowSelection  =   -1  'True
+      AllowBigSelection=   -1  'True
+      AllowUserResizing=   0
+      SelectionMode   =   0
+      GridLines       =   1
+      GridLinesFixed  =   2
+      GridLineWidth   =   1
+      Rows            =   50
+      Cols            =   10
+      FixedRows       =   1
+      FixedCols       =   1
+      RowHeightMin    =   0
+      RowHeightMax    =   0
+      ColWidthMin     =   0
+      ColWidthMax     =   0
+      ExtendLastCol   =   0   'False
+      FormatString    =   ""
+      ScrollTrack     =   0   'False
+      ScrollBars      =   3
+      ScrollTips      =   0   'False
+      MergeCells      =   0
+      MergeCompare    =   0
+      AutoResize      =   -1  'True
+      AutoSizeMode    =   0
+      AutoSearch      =   0
+      AutoSearchDelay =   2
+      MultiTotals     =   -1  'True
+      SubtotalPosition=   1
+      OutlineBar      =   0
+      OutlineCol      =   0
+      Ellipsis        =   0
+      ExplorerBar     =   0
+      PicturesOver    =   0   'False
+      FillStyle       =   0
+      RightToLeft     =   0   'False
+      PictureType     =   0
+      TabBehavior     =   0
+      OwnerDraw       =   0
+      Editable        =   0
+      ShowComboButton =   1
+      WordWrap        =   0   'False
+      TextStyle       =   0
+      TextStyleFixed  =   0
+      OleDragMode     =   0
+      OleDropMode     =   0
+      DataMode        =   0
+      VirtualData     =   -1  'True
+      DataMember      =   ""
+      ComboSearch     =   3
+      AutoSizeMouse   =   -1  'True
+      FrozenRows      =   0
+      FrozenCols      =   0
+      AllowUserFreezing=   0
+      BackColorFrozen =   0
+      ForeColorFrozen =   0
+      WallPaperAlignment=   9
+      AccessibleName  =   ""
+      AccessibleDescription=   ""
+      AccessibleValue =   ""
+      AccessibleRole  =   24
+   End
+End
+Attribute VB_Name = "frmQueryCompany"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+'窗体：职业病体检单位人员信息查询打印界面
+'功能：对职业病体检单位人员信息的查询和打印
+'作者：陶露
+'时间：2012-04-28
+'备注：暂无
+
+Option Explicit
+Private WithEvents mobjGUI As cls界面通用对象
+Attribute mobjGUI.VB_VarHelpID = -1
+Public mblnInUse As Boolean
+Dim lojb科室 As Collection '所有科室
+Dim lojb查询统计函数 As Object    '查询统计函数
+
+'该界面共用对象
+Private pobj体检表模板 As Object
+Private pobj体检 As Object
+Private pobjItem As Object
+
+Public Property Get pblnInUse() As Boolean
+    On Error Resume Next
+    pblnInUse = mblnInUse
+End Property
+
+'通过定位单位名称进行条件查询
+Private Sub ccmdQuery_Click()
+    sub开始查询
+End Sub
+
+Private Sub CmdFCompany_Click()
+    Dim lobjRec As Object                       '单位定位返回的结果记录。
+    
+    On Error GoTo errHandler
+    Set lobjRec = pobj业务对象.func单位定位      '启动单位定位界面。
+    
+    '获取定位的单位，显示在“单位名称”录入框中。(暂时只显示“单位名称”)
+    If Not lobjRec Is Nothing Then
+        If lobjRec.RecordCount > 0 Then
+            ctxtCompanyName.Text = IIf(IsNull(lobjRec("单位名称")), "", lobjRec("单位名称"))
+        End If
+    End If
+    Exit Sub
+errHandler:
+    'If Err.Number = 0 Then Exit Sub
+    Dim lstrError As String
+    lstrError = func错误处理(Err.Number, Err.Description)
+    sfsub错误处理 "职业病界面", "Form1", "CmdFCompany_Click", 6666, lstrError, False
+End Sub
+
+Private Sub CmdFCompany_LostFocus()
+    flag名称.Value = 1
+End Sub
+
+Private Sub DTP截至时间_GotFocus()
+    flag日期.Value = 1
+End Sub
+
+Private Sub DTP开始时间_GotFocus()
+    flag日期.Value = 1
+End Sub
+
+Private Sub Form_Load()
+    Dim lcol工具栏按钮 As New Collection '工具栏上的按钮初始化集合。
+    Dim i As Integer
+    On Error GoTo errHandler
+    Dim lojbRec As Object   '数据库结果对象
+    '如果窗体已经初始化过则不再进行初始化。
+    If mblnInUse Then Exit Sub
+    
+    '设置窗体正在使用的标志。
+    mblnInUse = True
+    
+    '初始化界面通用对象（每个界面对应一个界面通用对象实例，不可混用，切记切记）。
+    Set mobjGUI = New cls界面通用对象
+    
+    '设置工具栏上所需要的各种按钮。
+    With lcol工具栏按钮
+        .Add "预览报告(&N)108"
+        .Add "|"
+        .Add "退出"
+    End With
+    
+    '为需要通过界面通用对象控制的各种控件赋初始值。
+    With mobjGUI
+        Set .Form = Me
+        Set .c工具栏 = ctlb工具栏
+    End With
+        
+    '体检医师显示框显示当前用户名
+    ctxtDoctor.Text = um用户名
+    ctxtDoctor.Enabled = False
+    
+    '调用界面通用对象提供的方法，对界面控件进行初始化。
+    mobjGUI.subInitialize lcol工具栏按钮, ""
+        
+    '查询条件初始化
+    '创建查询统计函数对象
+    Set lojb查询统计函数 = CreateObject("职业病界面.clsQueryStatis")
+
+
+
+    Exit Sub
+errHandler:
+    Dim lstrError As String
+    lstrError = func错误处理(Err.Number, Err.Description)
+    sfsub错误处理 "职业病界面部件", "frmRegistermanage", "Form_Load", 6666, lstrError, False
+    Exit Sub
+    Resume
+End Sub
+
+Private Sub Form_QueryUnload(Cancel As Integer, UnloadMode As Integer)
+    On Error Resume Next
+    mblnInUse = False
+    
+    Set mobjGUI = Nothing
+End Sub
+
+'查询条件
+Private Sub sub开始查询()
+    Dim lobjRec As Object
+    Dim sql As String
+    
+    On Error GoTo errHandler
+    sql = "select 系统编号,姓名,性别,年龄,危害因素,职业危害工龄,体检日期,既往病史"
+    
+    sql = IIf(flag名称.Value = 0, sql, sql & ",单位名称")
+    sql = sql & " from 职业病体检_体检报告视图 where 1=1 "
+    sql = IIf(ctxtCompanyName.Text = "", sql, sql & "and 单位名称='" & ctxtCompanyName.Text & "'")
+    sql = sql & " and (体检日期 >= '" & DTP开始时间.Value & "' and 体检日期 <= '" & DTP截止时间.Value & "')"
+
+    Set lobjRec = lojb查询统计函数.func返回查询信息(sql)
+    
+    '显示之前，先清除表内已有的信息
+    cgrdList.Clear
+    
+    Set cgrdList.DataSource = lobjRec
+    cgrdList.Editable = flexEDNone
+    cgrdList.AutoSize 1, cgrdList.Cols - 1, 0, 0
+    sql = ""
+    Exit Sub
+errHandler:
+    Dim lstrError  As String
+    lstrError = func错误处理(Err.Number, Err.Description)
+    sfsub错误处理 "职业病设置界面", "frmSetMedicalExamTemplate", "Timer1_Timer", 66666, lstrError, False
+    MousePointer = 0
+    '恢复界面可以操作。
+    Me.Enabled = True
+    
+    
+End Sub
+
+'界面工具栏按钮操作设定
+Private Sub mobjGUI_BeforeOperate(ByVal Operate As String, Cancel As Boolean)
+    On Error GoTo errHandler
+    Cancel = True
+    
+    Dim lcolID As New Collection
+    Dim lobj体检类型 As Object
+    lcolID.Add pstrPerson
+    Set lobj体检类型 = CreateObject("职业病对象.clsMedicalExam")
+    lobj体检类型.系统编号 = pstrPerson
+
+    Select Case Operate
+        Case "预览报告"
+            '暂无内容
+            pobj业务对象.Sub打印文书 "职业病体检_单位报表", lcolID, False, True
+        Case "退出"
+            Unload frmQueryCompany
+            Set frmQueryCompany = Nothing
+    End Select
+    
+    Exit Sub
+errHandler:
+    sfsub错误处理 "职业病界面", "FrmQueryCompany", "mobjGUI_BeforeOperate", Err.Number, Err.Description, False
+    Cancel = True
+    Exit Sub
+    Resume
+End Sub
+
+Private Sub Timer1_Timer()
+    Dim lojbRec As Object   '数据库结果对象
+    Dim i As Integer
+    On Error GoTo errHandler
+    
+    Timer1.Enabled = False
+    '设置时间条件
+    DTP开始时间.Value = DateAdd("M", -1, Date)
+    DTP截至时间.Value = Date
+    
+errHandler:
+    Dim lstrError  As String
+    lstrError = func错误处理(Err.Number, Err.Description)
+    sfsub错误处理 "职业病设置界面", "frmSetMedicalExamTemplate", "Timer1_Timer", 6666, lstrError, False
+    MousePointer = 0
+    '恢复界面可以操作。
+    Me.Enabled = True
+End Sub

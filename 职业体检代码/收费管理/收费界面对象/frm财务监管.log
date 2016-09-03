@@ -1,0 +1,31 @@
+行 3: 不能创建引用: '{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0'。
+行 4: 不能创建引用: '{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0'。
+行 38: 控件 cimg按钮图标 的类 MSComctlLib.ImageList 不是一个已加载的控件类。
+行 367: 控件 ctlb工具栏 的类 MSComctlLib.Toolbar 不是一个已加载的控件类。
+行 384: 控件 cdtp截止日期 的类 MSComCtl2.DTPicker 不是一个已加载的控件类。
+行 396: 控件 cdtp开始日期 的类 MSComCtl2.DTPicker 不是一个已加载的控件类。
+行 41: 属性名 _ExtentX 在 cimg按钮图标 中是无效的。
+行 42: 属性名 _ExtentY 在 cimg按钮图标 中是无效的。
+行 44: 属性名 ImageWidth 在 cimg按钮图标 中是无效的。
+行 45: 属性名 ImageHeight 在 cimg按钮图标 中是无效的。
+行 46: 属性名 MaskColor 在 cimg按钮图标 中是无效的。
+行 47: 属性名 _Version 在 cimg按钮图标 中是无效的。
+行 374: 属性名 _ExtentX 在 ctlb工具栏 中是无效的。
+行 375: 属性名 _ExtentY 在 ctlb工具栏 中是无效的。
+行 376: 属性名 ButtonWidth 在 ctlb工具栏 中是无效的。
+行 377: 属性名 ButtonHeight 在 ctlb工具栏 中是无效的。
+行 378: 属性名 AllowCustomize 在 ctlb工具栏 中是无效的。
+行 379: 属性名 Wrappable 在 ctlb工具栏 中是无效的。
+行 380: 属性名 Style 在 ctlb工具栏 中是无效的。
+行 381: 属性名 ImageList 在 ctlb工具栏 中是无效的。
+行 382: 属性名 _Version 在 ctlb工具栏 中是无效的。
+行 390: 属性名 _ExtentX 在 cdtp截止日期 中是无效的。
+行 391: 属性名 _ExtentY 在 cdtp截止日期 中是无效的。
+行 392: 属性名 _Version 在 cdtp截止日期 中是无效的。
+行 393: 属性名 Format 在 cdtp截止日期 中是无效的。
+行 394: 属性名 CurrentDate 在 cdtp截止日期 中是无效的。
+行 402: 属性名 _ExtentX 在 cdtp开始日期 中是无效的。
+行 403: 属性名 _ExtentY 在 cdtp开始日期 中是无效的。
+行 404: 属性名 _Version 在 cdtp开始日期 中是无效的。
+行 405: 属性名 Format 在 cdtp开始日期 中是无效的。
+行 406: 属性名 CurrentDate 在 cdtp开始日期 中是无效的。

@@ -1,0 +1,13 @@
+modMain = 0, 0, 0, 0, C
+frmSetConclusionFilter = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSetBaseItem = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmConfigureMedicalExam = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSetMedicalExamTemplate = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSetTestItem = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSetDoctorPermission = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSetDoctor = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+clsMageConfForm_zyb = 0, 0, 0, 0, C
+clsPermissionConfigure = 0, 0, 0, 0, C
+frmSetConclusion = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frm重新赋予修改权限 = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frm条码大小设置 = 0, 0, 0, 0, C, 0, 0, 0, 0, C

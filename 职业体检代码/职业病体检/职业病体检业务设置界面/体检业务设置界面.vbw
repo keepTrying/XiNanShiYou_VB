@@ -1,0 +1,10 @@
+modMain = 0, 0, 0, 0, C
+frmSetConclusionFilter = 76, 83, 1000, 535, , 88, 116, 826, 572, C
+frmSetBaseItem = 0, 0, 0, 0, C, 66, 87, 804, 543, C
+frmConfigureMedicalExam = 88, -17, 972, 381, , 44, 58, 782, 514, C
+frmSetMedicalExamTemplate = 0, 0, 738, 456, , 154, 203, 892, 659, C
+frmSetTestItem = 0, 0, 0, 0, C, 44, 58, 837, 515, C
+frmSetDoctorPermission = 0, 0, 0, 0, C, 132, 174, 870, 630, C
+frmSetDoctor = 0, 0, 0, 0, C, 110, 145, 848, 601, C
+clsMageConfForm_zyb = 0, 0, 0, 0, C
+clsPermissionConfigure = 88, 116, 972, 514, 

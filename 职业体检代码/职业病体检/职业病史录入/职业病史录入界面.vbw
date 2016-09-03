@@ -1,0 +1,14 @@
+modMain = 0, 0, 0, 0, C
+ClsCareerHstDetl = 0, 0, 0, 0, C
+clsCareerHstMage = 0, 0, 0, 0, C
+ClsCareerHstRegt = 0, 0, 0, 0, C
+clsLifeHstRegt = 0, 0, 0, 0, C
+clsPastMedcHstDetl = 0, 0, 0, 0, C
+clsSymptomDetl = 0, 0, 0, 0, C
+frmQuery = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmSelectItem = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmCareerHstMage = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+clsMedicalProjt = 0, 0, 0, 0, C
+frmCareerHstRegt = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmÖ¢×´Ñ¯ÎÊ = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmÖ¢×´ÐÞ¸Ä = 0, 0, 0, 0, C, 0, 0, 0, 0, C

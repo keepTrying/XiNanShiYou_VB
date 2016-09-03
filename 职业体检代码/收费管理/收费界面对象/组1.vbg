@@ -1,0 +1,4 @@
+VBGROUP 5.0
+Project=prj收费.vbp
+StartupProject=测试业务界面.vbp
+Project=..\收费对象部件\收费对象部件.vbp

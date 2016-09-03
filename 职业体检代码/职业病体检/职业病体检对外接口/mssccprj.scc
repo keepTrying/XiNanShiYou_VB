@@ -1,0 +1,12 @@
+[SCC]
+SCC=This is a source code control file
+[体检对外接口部件.vbp]
+SCC_Project_Name ="$/perfect/体检管理/体检对外接口", VOAAAAAA
+SCC_Aux_Path =C:\Program Files\Microsoft Visual Studio\Common\VSS,
+[测试工程.vbp]
+SCC_Project_Name = "$/perfect/体检管理/体检对外接口", VOAAAAAA
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\Common\VSS"
+
+[包传输.vbp]
+SCC_Aux_Path = "C:\Program Files\Microsoft Visual Studio\Common\VSS"
+SCC_Project_Name = "$/perfect/体检管理/体检对外接口", VOAAAAAA

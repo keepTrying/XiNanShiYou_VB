@@ -1,0 +1,14 @@
+FrmRegister = 44, 58, 614, 518, , 22, 29, 592, 490, C
+clsManageTestForm = 154, 203, 689, 663, 
+frmGiveConclusion = 88, 116, 593, 576, , 66, 87, 636, 547, C
+FrmInputTestResult = 88, 116, 734, 576, , 88, 116, 658, 576, C
+frmSelectItem = 0, 0, 0, 0, C, 110, 145, 680, 605, C
+FrmEditRegister = 0, 0, 490, 460, , 132, 174, 702, 634, C
+frmRegisterManage = 88, 116, 696, 576, , -2, 66, 568, 526, C
+modMain = 66, 87, 640, 402, C
+frmPrintPaper = 88, 116, 656, 576, , 0, 0, 570, 460, C
+frmUpdateConclusion = 0, 0, 0, 0, C, 22, 29, 592, 489, C
+frm≤È’“»À‘± = 0, 0, 0, 0, C, 44, 58, 614, 518, C
+frmQuery = 0, 0, 0, 0, C, 66, 87, 636, 547, C
+FrmRegisterAgain = 176, 176, 672, 645, C, 88, 116, 658, 576, C
+frmTransfer = 44, 60, 608, 436, , 22, 30, 586, 406, C

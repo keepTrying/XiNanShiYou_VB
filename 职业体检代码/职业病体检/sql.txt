@@ -1,0 +1,10 @@
+declare @sql varchar(8000)
+
+set @sql='select 系统编号'
+select @sql = @sql+',max(case 体检项目 when '''+体检项目+''' then 体检结果 else null end )['+体检项目+']'
+from(select distinct 体检项目 from 职业病体检_结果信息_外科)a
+set @sql=@sql+'from 职业病体检_结果信息_内科 group by 系统编号   '
+
+print @sql
+
+--exec( @sql)

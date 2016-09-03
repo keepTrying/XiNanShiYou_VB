@@ -1,0 +1,285 @@
+[Root]
+Most Recent Package=标准安装软件包 1
+
+
+[Package|展开文件 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=D:\Programs\防疫产品2.6版\编译
+
+[Package|展开文件 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|展开文件 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|展开文件 1|Files Found]
+
+[Package|展开文件 1|Files Released]
+
+[Package|展开文件 1|Missing Dependency Information]
+D:\Program Files\Sheridan\ActiveListBar\SSLstBar.ocx=
+D:\Programs\防疫产品2.6版\编译程序\数据锁.dll=
+D:\Programs\防疫产品2.6版\编译程序\界面通用对象.dll=
+D:\Programs\防疫产品2.6版\编译程序\通用对象.dll=
+D:\Programs\防疫产品2.6版\编译程序\数据访问.dll=
+D:\Programs\防疫产品2.6版\编译程序\系统函数.dll=
+
+[Package|展开文件 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Mscomctl.ocx=
+C:\WINNT\system32\COMCT332.OCX=
+
+[Package|展开文件 1|Files Added]
+
+[Package|展开文件 1|Files Removed]
+
+[Package|展开文件 1|Files In Project]
+D:\Programs\防疫产品2.6版\编译程序\主程序.exe=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\Vb6chs.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado15.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\系统函数.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\数据访问.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\通用对象.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\界面通用对象.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\数据锁.dll=Yes
+D:\Program Files\Sheridan\ActiveListBar\SSLstBar.ocx=Yes
+C:\WINNT\system32\sssplt30.ocx=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\ssa3d30.ocx=Yes
+C:\WINNT\system32\COMCT332.OCX=Yes
+C:\WINNT\system32\CMCT3CHS.DLL=Yes
+C:\WINNT\system32\Mscomctl.ocx=Yes
+C:\WINNT\system32\Mscmcchs.dll=Yes
+
+[Package|展开文件 1|Configure Registry Files]
+Applicable=
+
+[Package|展开文件 1|Configure Remote Servers]
+Applicable=
+
+[Package|展开文件 1|Install Locations]
+D:\Programs\防疫产品2.6版\编译程序\主程序.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Vb6chs.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+D:\Programs\防疫产品2.6版\编译程序\系统函数.dll=$(WinSysPath)
+D:\Programs\防疫产品2.6版\编译程序\数据访问.dll=$(WinSysPath)
+D:\Programs\防疫产品2.6版\编译程序\通用对象.dll=$(WinSysPath)
+D:\Programs\防疫产品2.6版\编译程序\界面通用对象.dll=$(WinSysPath)
+D:\Programs\防疫产品2.6版\编译程序\数据锁.dll=$(WinSysPath)
+D:\Program Files\Sheridan\ActiveListBar\SSLstBar.ocx=$(WinSysPath)
+C:\WINNT\system32\sssplt30.ocx=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ssa3d30.ocx=$(WinSysPath)
+C:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINNT\system32\CMCT3CHS.DLL=$(WinSysPath)
+C:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\Mscmcchs.dll=$(WinSysPath)
+
+[Package|展开文件 1|Configure Shared Files]
+Applicable=
+
+[Package|展开文件 1|DepFile]
+DepCabFile=主程序.CAB
+DepCabRun=主程序.INF
+
+[Package|展开文件 1|Package]
+PackageFolder=D:\Programs\防疫产品2.6版\编译
+ProjectFolder=D:\Programs\防疫产品2.6版\主程序
+ServerSideCab=
+File1=D:\Programs\防疫产品2.6版\编译\主程序.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Programs\防疫产品2.6版\编译
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|标准安装软件包 1|Files Found]
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+D:\Program Files\Sheridan\ActiveListBar\SSLstBar.ocx=
+D:\Programs\防疫产品2.6版\编译程序\数据锁.dll=
+D:\Programs\防疫产品2.6版\编译程序\界面通用对象.dll=
+D:\Programs\防疫产品2.6版\编译程序\通用对象.dll=
+D:\Programs\防疫产品2.6版\编译程序\数据访问.dll=
+D:\Programs\防疫产品2.6版\编译程序\系统函数.dll=
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Mscomctl.ocx=
+C:\WINNT\system32\COMCT332.OCX=
+
+[Package|标准安装软件包 1|Files Added]
+
+[Package|标准安装软件包 1|Files Removed]
+
+[Package|标准安装软件包 1|Files In Project]
+D:\Programs\防疫产品2.6版\编译程序\主程序.exe=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\Vb6chs.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINNT\system32\msjet40.dll=Yes
+C:\WINNT\system32\msjter40.dll=Yes
+C:\WINNT\system32\msjint40.dll=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\mswstr10.dll=Yes
+C:\WINNT\system32\mswdat10.dll=Yes
+C:\WINNT\system32\msrd2x40.dll=Yes
+C:\WINNT\system32\msrd3x40.dll=Yes
+C:\WINNT\system32\msrepl40.dll=Yes
+C:\WINNT\system32\msjtes40.dll=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+D:\Programs\防疫产品2.6版\编译程序\系统函数.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\数据访问.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\通用对象.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\界面通用对象.dll=Yes
+D:\Programs\防疫产品2.6版\编译程序\数据锁.dll=Yes
+D:\Program Files\Sheridan\ActiveListBar\SSLstBar.ocx=Yes
+C:\WINNT\system32\sssplt30.ocx=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\ssa3d30.ocx=Yes
+C:\WINNT\system32\COMCT332.OCX=Yes
+C:\WINNT\system32\CMCT3CHS.DLL=Yes
+C:\WINNT\system32\Mscomctl.ocx=Yes
+C:\WINNT\system32\Mscmcchs.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+D:\Programs\防疫产品2.6版\编译程序\主程序.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Vb6chs.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINNT\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+D:\Programs\防疫产品2.6版\编译程序\系统函数.dll=$(WinSysPath)
+D:\Programs\防疫产品2.6版\编译程序\数据访问.dll=$(WinSysPath)
+D:\Programs\防疫产品2.6版\编译程序\通用对象.dll=$(WinSysPath)
+D:\Programs\防疫产品2.6版\编译程序\界面通用对象.dll=$(WinSysPath)
+D:\Programs\防疫产品2.6版\编译程序\数据锁.dll=$(WinSysPath)
+D:\Program Files\Sheridan\ActiveListBar\SSLstBar.ocx=$(WinSysPath)
+C:\WINNT\system32\sssplt30.ocx=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\ssa3d30.ocx=$(WinSysPath)
+C:\WINNT\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINNT\system32\CMCT3CHS.DLL=$(WinSysPath)
+C:\WINNT\system32\Mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\Mscmcchs.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+D:\Programs\防疫产品2.6版\编译程序\主程序.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|标准安装软件包 1|DepFile]
+DepCabFile=主程序.CAB
+DepCabRun=主程序.INF
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=
+Title=主程序
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=主程序
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|主程序]
+Icon1=主程序.exe
+Title1=主程序
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=D:\Programs\防疫产品2.6版\编译
+ProjectFolder=D:\Programs\防疫产品2.6版\主程序
+ServerSideCab=
+File1=D:\Programs\防疫产品2.6版\编译\setup.exe
+File2=D:\Programs\防疫产品2.6版\编译\Setup.Lst
+File3=D:\Programs\防疫产品2.6版\编译\主程序.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

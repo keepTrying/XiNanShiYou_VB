@@ -1,0 +1,13 @@
+[SCC]
+SCC=This is a source code control file
+
+[体检对象部件.vbp]
+SCC_Project_Name ="$/perfect/体检管理/体检对象", WOAAAAAA
+SCC_Aux_Path =C:\Program Files\Microsoft Visual Studio\Common\VSS,
+
+[工程1.vbp]
+SCC_Project_Name=this project is not under source code control
+SCC_Aux_Path=<This is an empty string for the mssccprj.scc file>
+[测试工程.vbp]
+SCC_Project_Name ="$/perfect/体检管理/体检对象", WOAAAAAA
+SCC_Aux_Path =C:\Program Files\Microsoft Visual Studio\Common\VSS,

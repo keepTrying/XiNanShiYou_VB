@@ -1,0 +1,5 @@
+VBGROUP 5.0
+Project=体检界面部件.vbp
+StartupProject=测试体检界面.vbp
+Project=..\体检对象\体检对象部件.vbp
+Project=..\体检文书管理\体检文书管理.vbp
